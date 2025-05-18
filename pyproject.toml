@@ -1,0 +1,29 @@
+[project]
+name = "llm-fragments-pdf"
+version = "0.1"
+description = "Use PyMuPDF to insert PDFs as markdown"
+readme = "README.md"
+authors = [{ name = "Dan Turkel" }, { name = "Simon Willison" }]
+license = "Apache-2.0"
+classifiers = []
+requires-python = ">=3.9"
+dependencies = [
+    "llm",
+    "pymupdf4llm>=0.0.24",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/daturkel/llm-fragments-pdf"
+Changelog = "https://github.com/daturkel/llm-fragments-pdf/releases"
+Issues = "https://github.com/daturkel/llm-fragments-pdf/issues"
+CI = "https://github.com/daturkel/llm-fragments-pdf/actions"
+
+[project.entry-points.llm]
+fragments_pdf = "llm_fragments_pdf"
+
+[project.optional-dependencies]
+test = ["pytest"]
