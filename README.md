@@ -1,6 +1,6 @@
 # llm-fragments-pdf
 
-A fragment loader for [LLM](https://llm.datasette.io/) that converts pdf files into markdown plaintext using [PyMuPDF4LLM](https://pymupdf.readthedocs.io/en/latest/pymupdf4llm/index.html).
+A fragment loader for [LLM](https://llm.datasette.io/) that converts PDF files into markdown plaintext using [PyMuPDF4LLM](https://pymupdf.readthedocs.io/en/latest/pymupdf4llm/index.html).
 
 This is especially useful for models which don't support [attachments](https://llm.datasette.io/en/stable/python-api.html#attachments).
 
